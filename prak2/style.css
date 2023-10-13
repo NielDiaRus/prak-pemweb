@@ -1,0 +1,95 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.upper-header {
+  background-color: black;
+  display: flex;
+  color: rgb(252, 246, 246);
+}
+
+.gambar {
+  border-radius: 50%;
+}
+
+.down-header {
+  background: rgb(71,133,154);
+  background: radial-gradient(circle, rgba(71,133,154,1) 0%, rgba(0,0,0,1) 100%);
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.down-header a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+.down-header button a {
+  color: black;
+}
+
+body {
+  background: rgb(34,193,195);
+background: linear-gradient(50deg, rgba(34,193,195,1) 0%, rgba(238,234,162,1) 100%);
+}
+
+.about {
+  margin: 5em 0 5em 5em;
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.about img {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.pengalaman-kerja{
+  margin: 5em 0 5em 5em;
+  background-color: white;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+table{
+  width: 100%;
+}
+
+.table-first-column{
+  background: rgb(71,133,154);
+  background: radial-gradient(circle, rgba(71,133,154,1) 0%, rgba(0,0,0,1) 100%);
+  color:aliceblue;
+}
+
+.kontak{
+  margin: 5em 0 5em 5em;
+  background-color: white;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button-kirim{
+  background-color: aquamarine;
+}
+
+footer{
+  background: rgb(71,133,154);
+  background: radial-gradient(circle, rgba(71,133,154,1) 0%, rgba(0,0,0,1) 100%);
+  padding: 20px 0 20px 0;
+}
+
+footer p{
+  color: white;
+  align-content: center;
+  margin-left: 50%;
+}
